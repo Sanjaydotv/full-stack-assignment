@@ -87,7 +87,7 @@ app.post("/submissions", function(req, res) {
     email,
     question,
     answer,
-    timestamp: new Date(),toISOString()
+    timestamp: new Date().toISOString()
   };
 
    // let the user submit a problem, randomly accept or reject the solution
